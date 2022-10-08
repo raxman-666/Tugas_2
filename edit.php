@@ -26,7 +26,7 @@
 			</div>
 			<div class="form-group">
 			  <label>Alamat</label>
-			  <textarea class="form-control" name="alamat" id="alamat" value="<?php echo $data['alamat'] ?>"></textarea>
+			  <textarea class="form-control" name="alamat" id="alamat"><?php echo $data['alamat'] ?></textarea>
 			</div>
 			<button style="float: right;" type="submit" class="btn btn-success">Simpan</button>
 			<a style="float: right; margin-right: 10px" href="data_mahasiswa.php" type="button" class="btn btn-danger">Batal</a>
